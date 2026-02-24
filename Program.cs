@@ -15,7 +15,7 @@ if(string.IsNullOrEmpty(connectionString))
     throw new Exception("Connection is null or invalid");
 
 builder.Services.AddDbContext<ApplicationDbContext>(options => {
-    options.UseNpgsql(connectionString);
+    options.UseSqlite(connectionString);
 });
 
 var app = builder.Build();
