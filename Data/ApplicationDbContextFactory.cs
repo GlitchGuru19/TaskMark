@@ -19,7 +19,7 @@ namespace Task.API.Data
             var connectionString = configuration.GetConnectionString("DefaultConnection");
 
             var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>();
-            optionsBuilder.UseNpgsql(connectionString);
+            optionsBuilder.UseSqlite(connectionString);
 
             return new ApplicationDbContext(optionsBuilder.Options);
         }

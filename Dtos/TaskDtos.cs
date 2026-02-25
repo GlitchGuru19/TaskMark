@@ -1,4 +1,6 @@
-﻿namespace Task.API;
+﻿using Task.API.Enums;
+
+namespace Task.API.Dtos;
 
 public class TaskDtos
 {
@@ -12,7 +14,7 @@ public class TaskDtos
 
     public class UpdateTaskStatusDto
     {
-        public int Status { get; set; }
+        public Status Status { get; set; }
     }
 
     public class UpdateTaskDto
@@ -21,7 +23,7 @@ public class TaskDtos
         public string? AssignedUser { get; set; }
         public string? Category { get; set; }
         public string? CategoryColor { get; set; }
-        public int? Status { get; set; }
+        public Status? Status { get; set; }
 
     }
 }

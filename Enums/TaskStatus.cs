@@ -2,7 +2,7 @@
 
 namespace Task.API.Enums;
 
-public enum TaskStatus
+public enum Status
 {
     Pending = 0,
     InProgress = 1,

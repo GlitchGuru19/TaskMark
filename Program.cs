@@ -1,6 +1,8 @@
 using Scalar.AspNetCore;
 using Task.API.Data; 
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Task.API.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,6 +20,10 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => {
     options.UseSqlite(connectionString);
 });
 
+// Authentication and Authorization stuff...
+builder.Services.AddAuthorization();
+builder.Services.AddIdentityApiEndpoints<ApplicationUser>().AddEntityFrameworkStores<ApplicationDbContext>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -28,9 +34,12 @@ if (app.Environment.IsDevelopment())
     app.MapScalarApiReference();
 }
 
+// Map the middleware
+app.MapIdentityApi<ApplicationUser>();
+
 app.UseHttpsRedirection();
 
-app.UseAuthorization();
+app.UseAuthorization(); // always comes before the controller
 
 app.MapControllers();
 
