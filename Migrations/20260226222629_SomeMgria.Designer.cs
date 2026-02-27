@@ -11,8 +11,8 @@ using Task.API.Data;
 namespace Task.API.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20260225223727_ThirdMigrations")]
-    partial class ThirdMigrations
+    [Migration("20260226222629_SomeMgria")]
+    partial class SomeMgria
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -168,11 +168,9 @@ namespace Task.API.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("FName")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("LName")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<bool>("LockoutEnabled")
@@ -198,7 +196,7 @@ namespace Task.API.Migrations
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("SIN")
+                    b.Property<int?>("SIN")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("SecurityStamp")
@@ -208,7 +206,6 @@ namespace Task.API.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("University")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("UserName")

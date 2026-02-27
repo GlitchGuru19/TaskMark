@@ -16,6 +16,8 @@ D:\Everything C#\Blazor\Task.API\bin\Debug\net10.0\Task.API.runtimeconfig.json
 D:\Everything C#\Blazor\Task.API\bin\Debug\net10.0\Task.API.dll
 D:\Everything C#\Blazor\Task.API\bin\Debug\net10.0\Task.API.pdb
 D:\Everything C#\Blazor\Task.API\bin\Debug\net10.0\Humanizer.dll
+D:\Everything C#\Blazor\Task.API\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Everything C#\Blazor\Task.API\bin\Debug\net10.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\Everything C#\Blazor\Task.API\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
 D:\Everything C#\Blazor\Task.API\bin\Debug\net10.0\Microsoft.Build.Framework.dll
 D:\Everything C#\Blazor\Task.API\bin\Debug\net10.0\Microsoft.CodeAnalysis.dll
@@ -31,6 +33,12 @@ D:\Everything C#\Blazor\Task.API\bin\Debug\net10.0\Microsoft.EntityFrameworkCore
 D:\Everything C#\Blazor\Task.API\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\Everything C#\Blazor\Task.API\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Sqlite.dll
 D:\Everything C#\Blazor\Task.API\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
+D:\Everything C#\Blazor\Task.API\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Everything C#\Blazor\Task.API\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Everything C#\Blazor\Task.API\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+D:\Everything C#\Blazor\Task.API\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+D:\Everything C#\Blazor\Task.API\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Everything C#\Blazor\Task.API\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
 D:\Everything C#\Blazor\Task.API\bin\Debug\net10.0\Microsoft.OpenApi.dll
 D:\Everything C#\Blazor\Task.API\bin\Debug\net10.0\Microsoft.VisualStudio.SolutionPersistence.dll
 D:\Everything C#\Blazor\Task.API\bin\Debug\net10.0\Mono.TextTemplating.dll
@@ -45,6 +53,7 @@ D:\Everything C#\Blazor\Task.API\bin\Debug\net10.0\System.Composition.Convention
 D:\Everything C#\Blazor\Task.API\bin\Debug\net10.0\System.Composition.Hosting.dll
 D:\Everything C#\Blazor\Task.API\bin\Debug\net10.0\System.Composition.Runtime.dll
 D:\Everything C#\Blazor\Task.API\bin\Debug\net10.0\System.Composition.TypedParts.dll
+D:\Everything C#\Blazor\Task.API\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
 D:\Everything C#\Blazor\Task.API\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.resources.dll
 D:\Everything C#\Blazor\Task.API\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.resources.dll
 D:\Everything C#\Blazor\Task.API\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.resources.dll
@@ -148,4 +157,3 @@ D:\Everything C#\Blazor\Task.API\obj\Debug\net10.0\refint\Task.API.dll
 D:\Everything C#\Blazor\Task.API\obj\Debug\net10.0\Task.API.pdb
 D:\Everything C#\Blazor\Task.API\obj\Debug\net10.0\Task.API.genruntimeconfig.cache
 D:\Everything C#\Blazor\Task.API\obj\Debug\net10.0\ref\Task.API.dll
-D:\Everything C#\Blazor\Task.API\bin\Debug\net10.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

@@ -165,11 +165,9 @@ namespace Task.API.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("FName")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("LName")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<bool>("LockoutEnabled")
@@ -195,7 +193,7 @@ namespace Task.API.Migrations
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("SIN")
+                    b.Property<int?>("SIN")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("SecurityStamp")
@@ -205,7 +203,6 @@ namespace Task.API.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("University")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("UserName")
