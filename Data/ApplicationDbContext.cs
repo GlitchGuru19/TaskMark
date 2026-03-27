@@ -2,6 +2,7 @@
 using Task.API.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 namespace Task.API.Data;
 

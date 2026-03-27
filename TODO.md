@@ -4,5 +4,6 @@
 - [x] Create Architecture.md explaining system architecture, components, and data flow
 - [x] Create Summary.md with high-level project summary and key features
 - [x] Create QuickStart.md with quick start guide for setup and running the project
-- [ ] Create API.md with detailed API endpoint documentation
+- [x] Create API.md with detailed API endpoint documentation
 - [ ] Review and finalize all documentation files
+- [x] Add login, logout and forgot password endpoints
